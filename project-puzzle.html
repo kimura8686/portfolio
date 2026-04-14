@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>不思議な木のお医者さん | Project Detail</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lab.html">Lab</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="activities.html">Activities</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="fade-in">
+        <section class="project-hero">
+            <div class="content-wrapper">
+                <span class="category">Lab Project / HCI / Entertainment Computing</span>
+                
+                <h1><font color=”white”>パズルデバイス・プロジェクト<br>「不思議な木のお医者さん」</h1>
+                <p class="project-members">明治大学 橋本研究室 | 木村光騎、時永愛莉、渡邉修太朗</font></p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content-wrapper">
+                <div class="section-header">
+                    <span class="number">01</span>
+                    <h2>作品コンセプト</h2>
+                </div>
+                <div class="two-column">
+                    <div class="text-side">
+                        <h3>「育てる・助ける体験」</h3>
+                        <p>
+                            <br>
+                            プレイヤーは「木のお医者さん」となり、言葉を喋れず苦しんでいる不思議な木の様子を観察し、治療を進めていく。
+                        </p>
+                        <p>
+                            薬を用意して飲ませたり、異物を取り除いたり…治療が進むにつれて木が元気を取り戻し、最終的には成長して花を咲かせるまでの物語を体験する。
+                        </p>
+                    </div>
+                    <div class="image-side">
+                        <img src="images/labA.jpg" alt="不思議な木の外観"width="80%" height="80%">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section gray-bg">
+            <div class="content-wrapper">
+                <div class="section-header">
+                    <span class="number">02</span>
+                    <h2>体験の流れ</h2>
+                </div>
+                <div class="flow-grid">
+                    <div class="flow-item">
+                        <div class="img-holder"><img src="images/puzzle/flow1.png" alt="元気がない"></div>
+                        <h4>1. 元気がない状態</h4>
+                        <p>鼻をすすり、喋れない状態。原因を観察する。</p>
+                    </div>
+                    <div class="flow-item">
+                        <div class="img-holder"><img src="images/puzzle/flow2.png" alt="くしゃみ"></div>
+                        <h4>2. くしゃみ</h4>
+                        <p>「こより」を鼻に入れると、口から悪いものが飛び出し、木が喋れるようになる。</p>
+                    </div><div class="flow-item">
+                        <div class="img-holder"><img src="images/puzzle/flow25.png" alt="くしゃみ"></div>
+                        <h4>3. 栄養剤生成</h4>
+                        <p>口からでたヒントの紙をもとに、栄養剤を調合する。</p>
+                    </div>
+                    <div class="flow-item">
+                        <div class="img-holder"><img src="images/puzzle/flow3.png" alt="栄養剤"></div>
+                        <h4>4. 栄養注入</h4>
+                        <p>生成機で正しい栄養剤を作り、注射器で木に注入する。</p>
+                    </div>
+                    <div class="flow-item">
+                        <div class="img-holder"><img src="images/puzzle/flow4.png" alt="成長・開花"></div>
+                        <h4>5. 成長</h4>
+                        <p>注入した栄養剤により、木が物理的に伸びる。</p>
+                    </div>
+                    <div class="flow-item">
+                        <div class="img-holder"><img src="images/puzzle/flow5.png" alt="成長・開花"></div>
+                        <h4>6. 開花</h4>
+                        <p>タイムマシーン等のギミックを経て、最後には蕾が開花する。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content-wrapper">
+                <div class="section-header">
+                    <span class="number">03</span>
+                    <h2>担当箇所</h2>
+                </div>
+                <div class="system-diagram">
+                    <img src="images/puzzle/system.png" alt="システム構成図">
+                </div>
+                
+                <div class="gimmick-grid">
+                    <div class="gimmick-card">
+                        <img src="images/puzzle/gimmick1.png" alt="ラックアンドピニオン">
+                        <h4>口の開閉</h4>
+                        <p><strong>ラック・アンド・ピニオン</strong>を使用。モーターの回転運動を直線運動に変換し、口の開閉を実現している。</p>
+                    </div>
+                    <div class="gimmick-card">
+                        <img src="images/puzzle/gimmick2.png" alt="表情変化">
+                        <h4>表情の変化</h4>
+                        <p>ゲームの進行度に合わせて眉毛や目が動くように制御。現在の状態を直感的に伝える。</p>
+                    </div>
+                    <div class="gimmick-card">
+                        <img src="images/puzzle/gimmick3.png" alt="開花機構">
+                        <h4>くしゃみギミック</h4>
+                        <p>鼻にこよりが入ったことを圧力センサで検知。口が開くことで中にあるものを排出する。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="back-link">
+            <a href="lab.html"><i class="fas fa-arrow-left"></i> Lab Worksへ戻る</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mitsuki Kimura.</p>
+    </footer>
+
+</body>
+</html>
