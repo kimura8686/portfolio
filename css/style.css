@@ -319,3 +319,26 @@ main {
     text-decoration: none;
     font-weight: bold;
 }
+
+/* すべての画像に対する共通設定 */
+img {
+    max-width: 100%; /* 親要素の幅を超えないようにする */
+    height: auto;    /* 縦横比を維持する */
+    display: block;  /* 下部の余計な隙間を消す */
+}
+
+/* カード型やグリッド内の画像を整える */
+.image-side img, 
+.img-holder img, 
+.gimmick-card img, 
+.system-diagram img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 枠に合わせて綺麗に収める（必要に応じて） */
+}
+
+/* システム構成図など、大きすぎると困る画像用の制限 */
+.system-diagram img {
+    max-width: 800px; /* 必要に応じて最大サイズを制限 */
+    margin: 0 auto;
+}
